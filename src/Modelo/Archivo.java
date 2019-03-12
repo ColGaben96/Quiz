@@ -21,7 +21,7 @@ public class Archivo
 	public String LeerArchivo()
 	{
 		String str = "";
-		f = new File("G:\\My Drive\\Programacion1\\Datos\\clavemasdigito.txt");
+		f = new File("./docs/clavemasdigito.txt");
 		try
 		{
 			fr= new FileReader(f);
@@ -42,7 +42,7 @@ public class Archivo
 	}
 	public void EscribirArchivo(String linea)
 	{
-		f = new File("G:\\My Drive\\Programacion1\\Datos\\clavemasdigito.txt");
+		f = new File("./docs/clavemasdigito.txt");
 		try
 		{
 			fw= new FileWriter(f);
