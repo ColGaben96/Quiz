@@ -3,7 +3,7 @@ package Modelo;
 import java.io.*;
 
 /**
- * @author Nicolas Ferreira
+ * @author Nicolas Ferreira; Gabriel Blanco La Rotta
  *
  */
 public class Archivo 
@@ -14,10 +14,17 @@ public class Archivo
 	private FileWriter fw;
 	private PrintWriter pw;
 	private String line;
+	/**
+	 * Método constuctor para Archivo
+	 */
 	public Archivo()
 	{
 		
 	}
+	/**
+	 * Método tipo String LeerArchivo
+	 * @return
+	 */
 	public String LeerArchivo()
 	{
 		String str = "";
@@ -40,6 +47,10 @@ public class Archivo
 		}
 		return str;
 	}
+	/**
+	 * Método tipo void EscribirArchivo
+	 * @param linea
+	 */
 	public void EscribirArchivo(int linea)
 	{
 		f = new File("./docs/clavemasdigito.txt");

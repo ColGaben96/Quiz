@@ -1,7 +1,7 @@
 package Modelo;
 
 /**
- * @author Nicolas Ferreira
+ * @author Nicolas Ferreira; Gabriel Blanco La Rotta
  *
  */
 public class Base
@@ -10,21 +10,20 @@ public class Base
 	int dv;
 	private Archivo a;
 	private Propiedades p;
-	
+	/**
+	 * Método Constructor Base
+	 */
 	public Base()
 	{
 		// TODO Auto-generated constructor stub
 		dv=0;
-		//BD = new Persistencia();
 		x=suma;
 		total=0;
 		a = new Archivo();
 	}
-
-	//getter para el atributo ejemplo
-	
-
-	//setter para el atributo ejemplo
+	/**
+	 * Método tipo int GetDato
+	 */
 	public int getDato() 
 	{
 		while(x > 0)
@@ -47,20 +46,26 @@ public class Base
 		System.out.println(dv);
 		return dv;
 	}
-
-	public Archivo getA() {
+	/*
+	 * Se crea el getter y setter de Archivo y Propiedades para luego ser invocado por Controlador 
+	 */
+	public Archivo getA() 
+	{
 		return a;
 	}
 
-	public void setA(Archivo a) {
+	public void setA(Archivo a) 
+	{
 		this.a = a;
 	}
 
-	public Propiedades getP() {
+	public Propiedades getP() 
+	{
 		return p;
 	}
 
-	public void setP(Propiedades p) {
+	public void setP(Propiedades p) 
+	{
 		this.p = p;
 	}
 }

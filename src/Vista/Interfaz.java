@@ -3,7 +3,7 @@ package Vista;
 import javax.swing.JOptionPane;
 
 /**
- * @author Gabriel Blanco La Rotta
+ * @author Nicolas Ferreira; Gabriel Blanco La Rotta
  *
  */
 public class Interfaz 

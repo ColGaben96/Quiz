@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.util.Properties;
 
 /**
- * @author Gabriel Blanco La Rotta
+ * @author Nicolas Ferreira; Gabriel Blanco La Rotta
  *
  */
 public class Propiedades 
@@ -14,6 +14,9 @@ public class Propiedades
 	private Properties prop = new Properties();
 	private String arcpropiedades = "./docs/validaciones.properties";
 	
+	/**
+	 * Método Setter para Propiedades
+	 */
 	public void setPropiedades()
 	{
 		try 
@@ -30,6 +33,9 @@ public class Propiedades
 		}
 	}
 	
+	/**
+	 * Método Getter para Propiedades
+	 */
 	public void getPropiedades()
 	{
 		try 
