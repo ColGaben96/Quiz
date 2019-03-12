@@ -3,7 +3,7 @@ package Controlador;
 import Modelo.Base;
 import Vista.Interfaz;
 /**
- * @author Nicolás Ferreira
+ * @author Nicolas Ferreira
  *
  */
 public class Controlador 
@@ -15,7 +15,7 @@ public class Controlador
 	{
 		bd=new Base();
 		gui=new Interfaz();
-		bd.getA().EscribirArchivo(bd.total());
+		bd.getA().EscribirArchivo(bd.getDato());
 		gui.escribirDato(bd.getA().LeerArchivo());
 	}
 

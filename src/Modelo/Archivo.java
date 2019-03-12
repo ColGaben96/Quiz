@@ -2,6 +2,10 @@ package Modelo;
 
 import java.io.*;
 
+/**
+ * @author Nicolas Ferreira
+ *
+ */
 public class Archivo 
 {
 	private File f;
