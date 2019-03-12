@@ -5,20 +5,21 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.Properties;
 
+/**
+ * @author Gabriel Blanco La Rotta
+ *
+ */
 public class Propiedades 
 {
 	private Properties prop = new Properties();
-	private String arcpropiedades = "/docs/validaciones.properties";
+	private String arcpropiedades = "\\home\\gabe\\Desktop\\ets.properties";
 	
-	/** @author Gabriel Blanco La Rotta
-	 * 
-	 */
 	public void setPropiedades()
 	{
 		try 
 		{
-			prop.setProperty("nombreArchivo", "/docs/clavemasdigito.txt");
-			prop.setProperty("archivoProp", "/docs/validaciones.properties");
+			prop.setProperty("nombreArchivo", "\\home\\gabe\\Desktop\\ets.txt");
+			prop.setProperty("archivoProp", "\\home\\gabe\\Desktop\\ets.properties");
 			prop.setProperty("nombreCodigo", "Archivo.java");
 			prop.store(new FileOutputStream(arcpropiedades), null);
 		} 
