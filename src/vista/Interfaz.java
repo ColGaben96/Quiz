@@ -1,5 +1,6 @@
 package vista;
 
-public class Interfaz {
+public class Interfaz 
+{
 
 }
