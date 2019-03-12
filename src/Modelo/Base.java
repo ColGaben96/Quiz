@@ -68,5 +68,18 @@ public class Base
 	{
 		this.p = p;
 	}
+	public void Boton()
+	{
+		String a = this.getA().LeerArchivo();
+		String b= ("1212121212");
+		String[] matriz = (a+"").split("");
+		String[] mt = (b+"").split("");
+		int f = 0;
+		for (int i = 0; i < mt.length; i++) {
+			f += (Integer.parseInt(matriz[i])*Integer.parseInt(mt[i]));
+		}
+		System.out.println(f);
+	}
+
 }
 

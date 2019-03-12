@@ -20,6 +20,7 @@ public class Interfaz
 	 */
 	public String pedirDato()
 	{
+		
 		return (JOptionPane.showInputDialog(null, "Ingrese la clave", "Clave", JOptionPane.OK_CANCEL_OPTION));
 	}
 	
