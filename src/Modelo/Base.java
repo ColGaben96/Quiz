@@ -1,5 +1,9 @@
 package Modelo;
 
+/**
+ * @author Nicolás Ferreira
+ *
+ */
 public class Base
 {
 	int i,x,total;

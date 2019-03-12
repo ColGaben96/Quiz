@@ -10,6 +10,9 @@ public class Propiedades
 	private Properties prop = new Properties();
 	private String arcpropiedades = "/docs/validaciones.properties";
 	
+	/** @author Gabriel Blanco La Rotta
+	 * 
+	 */
 	public void setPropiedades()
 	{
 		try 
