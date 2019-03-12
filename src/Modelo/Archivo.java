@@ -40,7 +40,7 @@ public class Archivo
 		}
 		return str;
 	}
-	public void EscribirArchivo(String linea)
+	public void EscribirArchivo(int linea)
 	{
 		f = new File("./docs/clavemasdigito.txt");
 		try

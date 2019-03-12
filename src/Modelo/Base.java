@@ -7,14 +7,14 @@ package Modelo;
 public class Base
 {
 	int i,x,total,suma=0;
-	String dv;
+	int dv;
 	private Archivo a;
 	private Propiedades p;
 	
 	public Base()
 	{
 		// TODO Auto-generated constructor stub
-		dv="";
+		dv=0;
 		//BD = new Persistencia();
 		x=suma;
 		total=0;
@@ -25,7 +25,7 @@ public class Base
 	
 
 	//setter para el atributo ejemplo
-	public String getDato() 
+	public int getDato() 
 	{
 		while(x > 0)
 		{
@@ -43,7 +43,7 @@ public class Base
 				x /= 10;
 			}
 		}
-		dv = String.valueOf(total);
+		dv = total;
 		System.out.println(dv);
 		return dv;
 	}
