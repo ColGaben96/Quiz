@@ -12,14 +12,14 @@ import java.util.Properties;
 public class Propiedades 
 {
 	private Properties prop = new Properties();
-	private String arcpropiedades = "\\home\\gabe\\Desktop\\ets.properties";
+	private String arcpropiedades = "./docs/validaciones.properties";
 	
 	public void setPropiedades()
 	{
 		try 
 		{
-			prop.setProperty("nombreArchivo", "\\home\\gabe\\Desktop\\ets.txt");
-			prop.setProperty("archivoProp", "\\home\\gabe\\Desktop\\ets.properties");
+			prop.setProperty("nombreArchivo", "./docs/clavemasdigito.txt");
+			prop.setProperty("archivoProp", "./docs/validaciones.properties");
 			prop.setProperty("nombreCodigo", "Archivo.java");
 			prop.store(new FileOutputStream(arcpropiedades), null);
 		} 

@@ -9,6 +9,7 @@ public class Base
 	int i,x,total,suma=0;
 	String dv;
 	private Archivo a;
+	private Propiedades p;
 	
 	public Base()
 	{
@@ -42,6 +43,7 @@ public class Base
 				x /= 10;
 			}
 		}
+		dv = String.valueOf(total);
 		System.out.println(dv);
 		return dv;
 	}
@@ -52,6 +54,14 @@ public class Base
 
 	public void setA(Archivo a) {
 		this.a = a;
+	}
+
+	public Propiedades getP() {
+		return p;
+	}
+
+	public void setP(Propiedades p) {
+		this.p = p;
 	}
 }
 
