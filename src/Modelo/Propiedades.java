@@ -1,5 +1,6 @@
 package Modelo;
 
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -11,8 +12,8 @@ import java.util.Properties;
  */
 public class Propiedades 
 {
-	private Properties prop = new Properties();
-	private String arcpropiedades = "./docs/validaciones.properties";
+	Properties prop = new Properties();
+	String arcpropiedades = "./docs/validaciones.properties";
 	
 	/**
 	 * Método Setter para Propiedades

@@ -18,6 +18,9 @@ public class Controlador
 		bd=new Base();
 		gui=new Interfaz();
 		bd.Boton();
+		gui.escribirDato(bd.getA().LeerArchivo());
+		bd.getP().setPropiedades();
+		
 	}
 
 }

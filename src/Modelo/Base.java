@@ -20,6 +20,7 @@ public class Base
 		x=suma;
 		total=0;
 		a = new Archivo();
+		p = new Propiedades();
 	}
 	/**
 	 * Método tipo int GetDato
